@@ -1,0 +1,32 @@
+{
+  "name": "deserialize-api-result",
+  "version": "0.1.0",
+  "description": "A short, but powerful statement about your project",
+  "author": "Thomas Deconinck",
+  "license": "MIT",
+  "homepage": "https://github.com/DCKT/rescript-examples",
+  "bugs": {
+    "url": "https://github.com/DCKT/rescript-examples/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DCKT/rescript-examples.git"
+  },
+  "keywords": [
+    "BuckleScript",
+    "ReScript"
+  ],
+  "dependencies": {
+    "@glennsl/bs-json": "5.0.2",
+    "axios": "0.21.1",
+    "bs-axios": "0.0.43",
+    "decco": "^1.3.0"
+  },
+  "devDependencies": {
+    "bs-platform": "9.0.0"
+  },
+  "scripts": {
+    "start:bsb": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  }
+}
