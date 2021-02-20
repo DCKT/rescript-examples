@@ -1,0 +1,28 @@
+{
+  "name": "deserialize-api-result",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": ["decco", "bs-axios", "@glennsl/bs-json"],
+  "ppx-flags": ["decco/ppx"],
+  "refmt": 3,
+  "warnings": {
+    "number": "+A-48-42",
+    "error": "+A-3-44-102"
+  },
+  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header", "-open Belt"]
+}

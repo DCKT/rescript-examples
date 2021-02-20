@@ -1,0 +1,10 @@
+(source (git https://github.com/tmattio/spin-rescript.git))
+(config username "Thomas Deconinck")
+(config project_name deserialize-api-result)
+(config ci_cd Github)
+(config syntax ReScript)
+(config project_snake deserialize_api_result)
+(config css_framework None)
+(config project_slug deserialize-api-result)
+(config project_description
+ "A short, but powerful statement about your project")
